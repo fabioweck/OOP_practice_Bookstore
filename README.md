@@ -1,9 +1,16 @@
 # OOP_practice_Bookstore
 
 Overview
+
 Write a program that manages a simple Book Store by utilizing the Object Oriented Programming Architecture.
 Directions
-A book store wants to develop a system to add/remove readers, add/remove books, track books rented and returned from registered readers and show book store information. In order to endure books rented and returned, your program will need to track books and readers. A reader can rent maximum 2 (two) books and he/she can rent a book if it is available to the store and not rented by other readers. The store can remove any book if the book is not already rented to someone. The store can also remove a reader, however, to remove a reader, all books rented by him/her must be returned before otherwise, the system will generate an error message.
+A book store wants to develop a system to add/remove readers, add/remove books, track books rented and returned from registered readers and show book store information. 
+In order to endure books rented and returned, your program will need to track books and readers. 
+A reader can rent maximum 2 (two) books and he/she can rent a book if it is available to the store and not rented by other readers. 
+The store can remove any book if the book is not already rented to someone. 
+The store can also remove a reader, however, to remove a reader, all books rented by him/her must be returned before otherwise, 
+the system will generate an error message.
+
 Your program must track each books and every readers. Implement your book store program can be done by the following steps:
 1. Create a Book class.
 a. Add fields for the book’s name, serial and status. (Assume, book names can be same, however will always differ by the serial number. i.e. together book name and serial will be unique! )
